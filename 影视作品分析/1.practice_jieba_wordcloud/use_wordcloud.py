@@ -26,6 +26,3 @@ plt.imshow(w, interpolation="bilinear") #使用双线性插值，设置边界的
 plt.axis("off")
 plt.show()
 w.to_file('picture.png')  # 保存图片
-
-
-
